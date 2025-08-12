@@ -13,7 +13,7 @@ final NoteModel note;
       onTap: () {
         Navigator.of(
           context,
-        ).push(MaterialPageRoute(builder: (context) => const EditNoteView()));
+        ).push(MaterialPageRoute(builder: (context) =>  EditNoteView(note:note ,)));
       },
       child: Container(
         padding: EdgeInsets.only(top: 24, left: 16, bottom: 24),
